@@ -1,0 +1,45 @@
+body {
+  background-image: url(https://img.meutimao.com.br/_upload/forumtopico/2015/11/22/zz.png);
+  background-position: center;
+  background-attachment: fixed;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 80px;
+
+  h1 {
+    color: Red;
+    font-size: 5rem;
+    margin-bottom: 50px;
+  }
+
+  input {
+    background-color: white;
+    color: red;
+    border-radius: 30px;
+    margin-top: 5px;
+    width: 20vh;
+    font-size: 20px;
+  }
+
+  button {
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    height: 5vh;
+    width: 15vh;
+    font-size: 30px;
+  }
+
+  h3 {
+    margin-top: 5px;
+    font-size: 8rem;
+    color: red;
+  }
+}
